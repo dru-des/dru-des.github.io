@@ -65,6 +65,7 @@ p{
   text-align: center;
   margin-bottom: 20px;
   font-weight: 400;
+  padding: 5px !important;
 }
 .boxlist:hover{
   background-color: #B591CE;
@@ -121,7 +122,7 @@ p{
   text-decoration: underline;
 }
 .functionlist{
-  line-height: 40px;
+  line-height: 36px;
   font-size: 1.1rem;
   letter-spacing: 0.035rem;
 }
