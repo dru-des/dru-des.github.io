@@ -132,8 +132,7 @@ p{
   padding-bottom: 25%;
 }
 /*extra spacing : put inside min-width 768px media query if looks bad on small screens */
-.userpersonas{
-  padding-bottom: 0px; 
+.userpersonas{ 
   padding-top: 50px;
 }
 .userpersonas-2{
