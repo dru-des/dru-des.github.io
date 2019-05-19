@@ -159,7 +159,7 @@ p{
   padding-bottom: 7.5%;
 }
 	.One1
-	{padding-top: 100px;}
+	{padding-top: 100px !important;}
 .uno{
   padding-top: 10%;
   }
@@ -200,6 +200,7 @@ p{
   margin-right: auto; 
   width: 50%;
 }
+	.One1{padding-top: 0px !important;}
 .dos{
   padding-bottom: 40px; padding-top: 10px;
 }
