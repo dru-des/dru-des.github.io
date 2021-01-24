@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<title>GameJam 2018</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body>
+<div class="nav-container">
+   <nav class="nav-inner transparent">
+
+      <div class="navbar">
+         <div class="container">
+            <div class="row">
+
+              <div class="brand">
+                <a href="index.html">Mitadru Mitra</a>
+              </div>
+
+              <div class="navicon">
+                <div class="menu-container" id="top">
+
+                  <div class="circle dark inline">
+                    <i class="icon ion-navicon"></i>
+                  </div>
+
+                  <div class="list-menu">
+                    <i class="icon ion-close-round close-iframe"></i>
+                    <div class="intro-inner">
+                     	<ul id="nav-menu">
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="about.html">About</a></li>
+                         <li><a href="upcoming.html">Blog (Upcoming)</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+         </div>
+      </div>
+
+   </nav>
+</div>
+<section id="header" class="header-podcast">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8">
+            	<div class="header-thumb">
+              		 <h1 class="wow fadeIn toptext" data-wow-delay="0.6s">Dalhousie GameJam 2018</h1>
+              		 <h3 class="wow fadeInUp toptext" data-wow-delay="0.9s">Winners of the Best In-game Easter Eggs</h3>
+           		</div>
+			</div>
+
+		</div>
+	</div>		
+</section>
+<!--single project section-->
+<section id="single-project">
+   <div class="container">
+      <div class="row">
+
+         <div class="wow fadeInUp col-md-offset-1 col-md-3 col-sm-offset-1 col-sm-4" data-wow-delay="0.3s" style="border: 2px solid black; padding: 15px;margin-left: 8%;margin-right: 8%;">
+			<div class="project-info">
+				<h2 style="font-weight: 600; color: black;">48 HOURS. 5 STUDENTS. 1 GAME.</h2>
+			</div>
+			<div class="project-info">
+			</div>
+		</div>
+
+		<div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="0.6s">
+			<h1 style="padding-top: 0px;padding-bottom: 0;" class="mob-h1">The Game Is On.</h1>
+			<p>When I was a first year, in November 2018, I took part in GameJam, a 48 hour game development competition at Dalhousie. Our team had to learn making 3D models, transferring our coding skills into Unity, and finally porting the app to Android and iOS. Without the help and guidance from Ubisoft Halifax's Aaron Stafford, such a monumental task would not have been possible back then. We worked under pressure to learn new technologies, but we delivered. <b>Best in-game Easter Eggs!</b> And the best part is that I was involved directly making the 3D models, music samples and more.</p>
+			<div style="height: 30px;"></div>
+			<!--carousel , change id-name-->
+			  <div class="carousel">
+			  	<div><img src="images/ahmed-1.jpg" controls autoplay style="width: 100%;"></img></div>
+    			<div><img src="images/ah-2.jpg" controls autoplay style="width: 100%;"></img></div>
+    			<div><img src="images/ahmed-3.jpg" controls autoplay style="width: 100%;"></img></div>
+  			</div>
+			<!--end of carousel-->
+		</div>
+
+      </div>
+   </div>
+</section>
+<footer style="margin-top: 5%;">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<a href="mailto:mmitadru@gmail.com" class="wow fadeInUp Mailme"  data-wow-delay="0.3s">Send me an email</a>
+				<p class="wow fadeInUp Up"  data-wow-delay="0.3s">&copy; Mitadru Mitra, 2019.</p>
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousel').slick({
+        dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+      });
+    });
+
+    $('.carousel-2').slick({
+    dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+
+});
+    //sticky header
+    var navbar;
+var sticky;
+window.onscroll = function() {bar()};
+navbar = document.getElementById("top");
+
+sticky = navbar.offsetTop;
+
+function bar() {
+  if (window.scrollY > sticky) 
+  {
+    navbar.classList.add("sticky-div")
+  } 
+  else if(window.scrollY <= sticky)
+  {
+    navbar.classList.remove("sticky-div");
+  }
+}//end of sticky header
+  </script>
+</body>
+</html>
