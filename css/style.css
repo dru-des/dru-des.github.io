@@ -53,6 +53,7 @@ p{
 .cssanimations.csstransforms #close {
   display: none;}
 
+
 .Up{
   padding-top: 4%;
   color: grey !important; 
@@ -146,7 +147,7 @@ p{
     display: block;
   }
   .d-only{
-    display: none;
+    display: none !important;
   }
 }
 @media screen and (min-width: 1201px){
@@ -690,7 +691,8 @@ a.icon {
   background: url('../halifax1.jpeg') no-repeat;
 }
 .header-three {
-  background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),url('../images/dell.jpg') no-repeat;
+  /*background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),url('../images/dell.jpg') no-repeat;*/
+  background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),url('../images/restaurant.webp') no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -721,6 +723,16 @@ a.icon {
 }
 .header-redesign {
   background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),url('../images/redesign.JPG') no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+    height: 75vh !important;
+
+}
+.header-butler {
+  background: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),url('../images/Bg-Butler.webp') no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1078,7 +1090,9 @@ footer {
 
 }
 
-
+.metro{
+  margin-left: 25%;
+}
 @media (max-width: 700px) {
 
   h1 {
@@ -1105,7 +1119,23 @@ footer {
   }
 
 }
-
+.trouble{
+   margin-left: 1.4%;
+}
 @media (max-width: 450px) {
   .intro-inner {top: 50%;}
+  .topmarge{
+margin-top: 40px;
+}
+.metro{
+  margin-left: auto;
+}
+.trouble{
+   margin-left: 7%;
+}
+}
+@media (max-width: 768px){
+  .trouble{
+   margin-left: 6%;
+}
 }
